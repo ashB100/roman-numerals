@@ -24,8 +24,9 @@ h2 {
 }
 
 %box-styles {
-	background: $box-bg-color;
 	border-radius: 15px;
+	background: $box-bg-color;
+	background: linear-gradient(#bc5a4b,  #a1c6ff);
 	-webkit-box-shadow: 3px 5px 3px black;
 	-moz-box-shadow: 3px 5px 3px black;
 	box-shadow: 3px 5px 3px black;
@@ -36,8 +37,8 @@ h2 {
 .intro {
 	@extend %box-styles;
 	height: 70px;
-	//background: #b85044;
 	color: #333;
+	background: linear-gradient(#f00, #00f);
 }
 
 .input-div, .output-div {
